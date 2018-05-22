@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: GoogleCloudDemo
+  cloud:
+    config:
+      failFast: false
+      discovery:
+        enabled: true
+    inetutils:
+      preferredNetworks: ${EUREKA_PREFERRED_NETWORKS:198.168}
+ 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}  
+  instance:
+      preferIpAddress: ${EUREKA_PREFER_IP:false}   
+      hostname: localhost
+         

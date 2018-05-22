@@ -1,0 +1,21 @@
+# this for local
+# redirectUri: http://localhost:8080/oauth2callback
+
+server:
+  connection-timeout: 60000 
+  port: 9090   
+# this foeproduction
+redirectUri: https://my-project-204113.appspot.com/oauth2callback
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp 
+      suffix: .jsp
+      
+    application:
+    name: GoogleCloudDemo
+    
+  feign:
+  hystrix: 
+    enabled: true

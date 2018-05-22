@@ -1,0 +1,73 @@
+[
+        {
+            "id": 1,
+            "brand": "Apple",
+            "type": "Mobile",
+            "price": 45000,
+            "productDate": "01-01-2012"
+        },
+       {
+            "id": 2,
+            "brand": "Xperia",
+            "type": "Mobile",
+            "price": 18000,
+            "productDate": "01-01-2012"
+        },
+       {
+            "id": 3,
+            "brand": "HTC",
+            "type": "Mobile",
+            "price": 22000,
+            "productDate": "01-01-2012"
+        },
+        {
+            "id": 4,
+            "brand": "Xperia",
+            "type": "Mobile",
+            "price": 20000,
+            "productDate": "01-01-2012"
+        },
+       {
+            "id": 5,
+            "brand": "Samsung",
+            "type": "Mobile",
+            "price": 15000,
+            "productDate": "01-01-2012"
+        },
+        {
+            "id": 6,
+            "brand": "Apple",
+            "type": "Laptop",
+            "price": 65000,
+            "productDate": "01-01-2012"
+        },
+        {
+            "id": 7,
+            "brand": "Sony",
+            "type": "Laptop",
+            "price": 45000,
+            "productDate": "01-01-2012"
+        },
+		 {
+            "id": 8,
+            "brand": "Dell",
+            "type": "Laptop",
+            "price": 42000,
+            "productDate": "01-01-2012"
+        },
+		 {
+            "id": 9,
+            "brand": "Lewis",
+            "type": "T-Shirt",
+            "price": 1000,
+            "productDate": "01-01-2012"
+        },
+		 {
+            "id": 10,
+            "brand": "Wrangler",
+            "type": "T-Shirt",
+            "price": 1200,
+            "productDate": "01-01-2012"
+        }
+      
+    ]
